@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zshnamexy.namexyzsh.dao.NameUserDao">
+    <!--<resultMap id="nameuser" type="NameUser">
+        <id property="id" column="id"></id>
+        <result property="name" column="name"/>
+        <result property="nameUser" column="nameuser"/>
+    </resultMap>-->
+<select id="selectIddssa" parameterType="com.zshnamexy.namexyzsh.po.NameUser" >
+    select * from names
+</select>
+
+<select id="llee" parameterType="com.zshnamexy.namexyzsh.po.NameUser">
+    select * from names
+</select>
+
+</mapper>
